@@ -1,0 +1,575 @@
+ArgumentOutOfRangeException @27/05/2016 09:38:39
+Index must be within the bounds of the List.
+Parameter name: index
+System.ArgumentOutOfRangeException: Index must be within the bounds of the List.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.Insert(Int32 index, T item)
+   at GCop.Core.Settings.Settings.Build()
+   at GCop.Core.Settings.Settings.Initialize()
+   at GCop.Core.Settings.Settings.Load()
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:39
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+NullReferenceException @27/05/2016 09:38:40
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GCop.Core.Settings.Settings.ValidateCondition(String filePath, String ruleId)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.ValidateContext(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
