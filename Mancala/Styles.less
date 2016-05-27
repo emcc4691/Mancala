@@ -1,0 +1,88 @@
+﻿@board-height: 420px;
+@imagesDir: "images/";
+
+body {
+	background-color: grey;
+
+	#board {
+		margin: 15% auto;
+		display: flex;
+		flex-direction: row;
+		width: 1400px;
+		height: @board-height;
+		background-image: url("images/board-slate.png");
+		background-repeat: no-repeat;
+
+		& > div {
+			flex-grow: 1;
+		}
+
+		& > .store {
+			display: flex;
+
+			& > img {
+				margin: 25px 20px;
+				height: (@board-height * 7 / 8);
+				border-radius: 65px;
+				flex-grow: 1;
+			}
+		}
+
+		#board-centre {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 50;
+
+			.row {
+				&.active-player {
+					text-align: center;
+				}
+
+				.active-player {
+					width: 8%;
+				}
+
+				.hole-container {
+					position: relative;
+					width: 10%;
+					margin: 10px 50px 10px 0;
+					display: inline-block;
+
+					&:first-child {
+						margin-left: 50px;
+					}
+
+					.hole {
+						border-radius: 25%;
+						width: 100%;
+					}
+
+
+					.display-number {
+						width: 100%;
+						position: absolute;
+						text-align: center;
+						color: white;
+						font-size: 64px;
+						font-weight: 600;
+						font-family: sans-serif;
+						top: 20px;
+						opacity: 0.8;
+					}
+				}
+			}
+
+			.player-row {
+				margin-bottom: 40px;
+			}
+
+			.oponent-row {
+				margin-top: 40px;
+			}
+		}
+	}
+
+	.images {
+		display: none;
+	}
+}
