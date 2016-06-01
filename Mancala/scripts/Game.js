@@ -35,23 +35,11 @@ Game.prototype.updateHoleImages = function () {
 }
 
 Game.prototype.addHoles = function () {
-    this.holes.push(new Hole("holeO1", "storeO", "holeP6", isStore = false, isPlayer = false));
-    this.holes.push(new Hole("holeO2", "holeO1", "holeP5", isStore = false, isPlayer = false));
-    this.holes.push(new Hole("holeO3", "holeO2", "holeP4", isStore = false, isPlayer = false));
-    this.holes.push(new Hole("holeO4", "holeO3", "holeP3", isStore = false, isPlayer = false));
-    this.holes.push(new Hole("holeO5", "holeO4", "holeP2", isStore = false, isPlayer = false));
-    this.holes.push(new Hole("holeO6", "holeO5", "holeP1", isStore = false, isPlayer = false));
-
-    this.holes.push(new Hole("storeP", "holeO6", null, isStore = true, isPlayer = true));
-
-    this.holes.push(new Hole("holeP1", "storeP", "holeO6", isStore = false, isPlayer = true));
-    this.holes.push(new Hole("holeP2", "holeP1", "holeO5", isStore = false, isPlayer = true));
-    this.holes.push(new Hole("holeP3", "holeP2", "holeO4", isStore = false, isPlayer = true));
-    this.holes.push(new Hole("holeP4", "holeP3", "holeO3", isStore = false, isPlayer = true));
-    this.holes.push(new Hole("holeP5", "holeP4", "holeO2", isStore = false, isPlayer = true));
-    this.holes.push(new Hole("holeP6", "holeP5", "holeO1", isStore = false, isPlayer = true));
-
-    this.holes.push(new Hole("storeO", "holeP6", null, isStore = true, isPlayer = false));
+    for (var i = 0; i < setupHoles.length; i++) {
+        var hole = setupHoles[i];
+        var newHole = new Hole(hole.ID, hole.nextHoleID, hole.oppositeHoleID, hole.isStore, hole.isPlayer);
+        this.holes.push(newHole);
+    }
 }
 
 Game.prototype.findHoleByID = function (ID) {
