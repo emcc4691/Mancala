@@ -5,6 +5,7 @@ function Initialise() {
     game.initialise();
     AddHoleClickEvents();
     AddHoleHoverEvents();
+    AddStoreHoverEvents();
 }
 
 function AddHoleClickEvents() {
@@ -19,6 +20,17 @@ function AddHoleHoverEvents() {
     $('.hole-container').hover(
         function () {
             $(this).append('<div class="display-number">' + game.findHoleByID($(this).find('.hole').attr('id')).numberOfMarbles + '</div>');
+        },
+        function () {
+            $('.display-number').remove();
+        }
+    );
+}
+
+function AddStoreHoverEvents() {
+    $('.store-container').hover(
+        function () {
+            $(this).append('<div class="display-number">' + game.findHoleByID($(this).find('.store').attr('id')).numberOfMarbles + '</div>');
         },
         function () {
             $('.display-number').remove();

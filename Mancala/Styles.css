@@ -13,14 +13,19 @@ body #board {
 body #board > div {
   flex-grow: 1;
 }
-body #board > .store {
+body #board .store-container {
   display: flex;
+  position: relative;
+  display: inline-block;
 }
-body #board > .store > img {
+body #board .store-container .store {
   margin: 25px 20px;
   height: 367.5px;
   border-radius: 65px;
   flex-grow: 1;
+}
+body #board .store-container .display-number {
+  top: 165px;
 }
 body #board #board-centre {
   display: flex;
@@ -47,6 +52,15 @@ body #board #board-centre .row .hole-container .hole {
   width: 100%;
 }
 body #board #board-centre .row .hole-container .display-number {
+  top: 20px;
+}
+body #board #board-centre .player-row {
+  margin-bottom: 40px;
+}
+body #board #board-centre .oponent-row {
+  margin-top: 40px;
+}
+body #board .display-number {
   width: 100%;
   position: absolute;
   text-align: center;
@@ -54,14 +68,7 @@ body #board #board-centre .row .hole-container .display-number {
   font-size: 64px;
   font-weight: 600;
   font-family: sans-serif;
-  top: 20px;
   opacity: 0.8;
-}
-body #board #board-centre .player-row {
-  margin-bottom: 40px;
-}
-body #board #board-centre .oponent-row {
-  margin-top: 40px;
 }
 body .images {
   display: none;

@@ -17,14 +17,20 @@ body {
 			flex-grow: 1;
 		}
 
-		& > .store {
+		.store-container {
 			display: flex;
+			position: relative;
+			display: inline-block;
 
-			& > img {
+			.store {
 				margin: 25px 20px;
 				height: (@board-height * 7 / 8);
 				border-radius: 65px;
 				flex-grow: 1;
+			}
+
+			.display-number {
+				top: 165px;
 			}
 		}
 
@@ -57,17 +63,8 @@ body {
 						width: 100%;
 					}
 
-
 					.display-number {
-						width: 100%;
-						position: absolute;
-						text-align: center;
-						color: white;
-						font-size: 64px;
-						font-weight: 600;
-						font-family: sans-serif;
 						top: 20px;
-						opacity: 0.8;
 					}
 				}
 			}
@@ -79,6 +76,17 @@ body {
 			.oponent-row {
 				margin-top: 40px;
 			}
+		}
+
+		.display-number {
+			width: 100%;
+			position: absolute;
+			text-align: center;
+			color: white;
+			font-size: 64px;
+			font-weight: 600;
+			font-family: sans-serif;
+			opacity: 0.8;
 		}
 	}
 
