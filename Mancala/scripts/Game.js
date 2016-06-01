@@ -9,17 +9,27 @@ Game.prototype.initialise = function () {
     game.updateActivePlayerImage()
 }
 
+Game.prototype.togglePlayerTurn = function () {
+    this.isPlayerTurn = !this.isPlayerTurn;
+}
+
 Game.prototype.play = function (holeID) {
     var hole = this.findHoleByID(holeID)
     if (hole.isPlayer == this.isPlayerTurn && hole.numberOfMarbles > 0) {
         this.playHole(holeID);
-        this.isPlayerTurn = !this.isPlayerTurn;
+        this.togglePlayerTurn();
         this.updateActivePlayerImage();
     }
 }
 
 Game.prototype.playHole = function (holeID) {
-    this.moveContents(holeID);
+    this.findHoleByID(holeID).moveContents(holeID);
+
+    this.checkActivePlayerFinished();
+    this.togglePlayerTurn();
+    this.checkActivePlayerFinished();
+    this.togglePlayerTurn();
+
     this.updateHoleImages();
 }
 
@@ -29,9 +39,10 @@ Game.prototype.updateActivePlayerImage = function () {
 }
 
 Game.prototype.updateHoleImages = function () {
-    this.holes.forEach(function (entry) {
-        entry.updateButtonImage()
-    });
+    this.holes.forEach(
+        function (entry) {
+            entry.updateButtonImage()
+        });
 }
 
 Game.prototype.addHoles = function () {
@@ -46,24 +57,35 @@ Game.prototype.findHoleByID = function (ID) {
     return this.holes.filter(hole => hole.ID == ID)[0];
 }
 
-Game.prototype.moveContents = function (holeID) {
-    var firstHole = this.findHoleByID(holeID);
-
-    var nextHole = this.findHoleByID(firstHole.nextHoleID);
-    var lastPlayedHole = firstHole
-    while (firstHole.numberOfMarbles > 0) {
-        if (!nextHole.isStore || nextHole.isPlayer == this.isPlayerTurn)
-            this.moveContentsFromTo(nextHole, firstHole, 1);
-
-        lastPlayedHole = nextHole;
-        nextHole = this.findHoleByID(nextHole.nextHoleID);
-    }
-
-    if (lastPlayedHole.isStore)
-        this.isPlayerTurn = !this.isPlayerTurn;
+Game.prototype.findActivePlayerStore = function () {
+    return this.holes.filter(hole => hole.isStore && hole.isPlayer == this.isPlayerTurn)[0];
 }
 
-Game.prototype.moveContentsFromTo = function (from, to, numberOfMarbles) {
-    from.increaseMarbles(numberOfMarbles);
-    to.reduceMarbles(numberOfMarbles);
+Game.prototype.findActivePlayerHoles = function () {
+    return this.holes.filter(hole => !hole.isStore && hole.isPlayer == this.isPlayerTurn);
+}
+
+Game.prototype.calculateTotalMarblesOnActiveSide = function () {
+    var result = 0;
+    var holes = this.holes.filter(hole => !hole.isStore && hole.isPlayer == this.isPlayerTurn);
+
+    holes.forEach(
+        function (entry) {
+            result += entry.numberOfMarbles;
+        });
+
+    return result;
+}
+
+Game.prototype.checkActivePlayerFinished = function () {
+    if (this.calculateTotalMarblesOnActiveSide() == 0) {
+        this.togglePlayerTurn();
+        var holes = this.findActivePlayerHoles();
+
+        holes.forEach(
+            function (entry) {
+                entry.moveContentsToStore();
+            });
+        this.togglePlayerTurn();
+    };
 }
