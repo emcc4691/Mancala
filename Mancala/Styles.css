@@ -70,6 +70,7 @@ body #board .display-number {
   font-family: sans-serif;
   opacity: 0.8;
 }
-body .images {
-  display: none;
+body .marble-set {
+  height: 80px;
+  position: absolute;
 }

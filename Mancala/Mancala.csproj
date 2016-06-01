@@ -69,9 +69,10 @@
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="scripts\Game.js" />
-    <Content Include="scripts\Helpers.js" />
+    <Content Include="scripts\Constants.js" />
     <Content Include="scripts\Hole.js" />
     <Content Include="scripts\Main.js" />
+    <Content Include="scripts\MarbleSet.js" />
     <Content Include="Styles.css">
       <DependentUpon>Styles.less</DependentUpon>
     </Content>

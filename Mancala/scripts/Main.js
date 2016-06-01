@@ -1,6 +1,4 @@
-﻿imageDir = "images/";
-
-function Initialise() {
+﻿function Initialise() {
     game = new Game();
     game.initialise();
     AddHoleClickEvents();
