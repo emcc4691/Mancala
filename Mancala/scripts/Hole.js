@@ -8,10 +8,10 @@
 }
 
 Hole.prototype.updateButtonImage = function () {
-    var imageFilePrefix = this.isStore ? "store-1-" : "hole-1-";
-    var numberOfMarbles = this.isStore ? Math.min(this.numberOfMarbles, 11) : Math.min(this.numberOfMarbles, 14);
+    var imageFilePrefix = this.isStore ? STORE_IMAGE_PREFIX : HOLE_IMAGE_PREFIX;
+    var numberOfMarbles = this.isStore ? Math.min(this.numberOfMarbles, STORE_MARBLE_MAX) : Math.min(this.numberOfMarbles, HOLE_MARBLE_MAX);
 
-    var imageFile = imageDir + imageFilePrefix + numberOfMarbles + ".png";
+    var imageFile = IMAGE_DIR + imageFilePrefix + numberOfMarbles + ".png";
     document.getElementById(this.ID).src = imageFile;
 }
 
@@ -57,23 +57,31 @@ Hole.prototype.moveContentsToStore = function () {
     this.moveContentsTo(store, this.numberOfMarbles);
 }
 
-Hole.prototype.pickUpContents = function () {
+Hole.prototype.animateMoveContents = function (dropAllMarbles) {
     if (this.numberOfMarbles == 0) return;
-    $('.marble-set').remove();
-    game.updateHoleImages();
+    this.updateButtonImage();
     this.drawEmptyCell();
 
-    var marbleSet = new MarbleSet(this.numberOfMarbles);
-    marbleSet.draw(this.ID);
-}
+    var marbleSet = new MarbleSet(this, this.numberOfMarbles);
+    marbleSet.draw();
 
-Hole.prototype.putDownContents = function () {
-    $('.marble-set').remove();
-    game.updateHoleImages();
+    while (marbleSet.numberOfMarbles > 0) {
+        if (dropAllMarbles) {
+            marbleSet.moveToCurrentPlayerStore();
+            marbleSet.dropAllMarbles();
+        }
+        else {
+            marbleSet.moveToNextHole();
+            marbleSet.pinToNextHole();
+            marbleSet.dropOneMarble();
+            marbleSet.draw();
+            marbleSet.Hole.updateButtonImage();
+        }
+    }
 }
 
 Hole.prototype.drawEmptyCell = function () {
-    $('#' + this.ID).attr('src', emptyHoleImage);
+    $('#' + this.ID).attr('src', EMPTY_HOLE_IMAGE);
 }
 
 

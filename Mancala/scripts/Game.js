@@ -34,8 +34,8 @@ Game.prototype.playHole = function (holeID) {
 }
 
 Game.prototype.updateActivePlayerImage = function () {
-    var imageFile = imageDir + 'active-player-' + (this.isPlayerTurn ? 'player' : 'oponent') + '.png';
-    document.getElementById('active-player-indicator').src = imageFile;
+    var imageFile = IMAGE_DIR + ACTIVE_PLAYER_IMAGE_PREFIX + (this.isPlayerTurn ? 'player' : 'oponent') + '.png';
+    document.getElementById(ACTIVE_PLAYER_INDICATOR_ID).src = imageFile;
 }
 
 Game.prototype.updateHoleImages = function () {

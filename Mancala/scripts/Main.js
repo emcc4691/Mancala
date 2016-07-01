@@ -7,31 +7,31 @@
 }
 
 function AddHoleClickEvents() {
-    $('.hole-container').click(
+    $('.' + HOLE_CONTAINER_CLASS).click(
         function () {
-            game.play($(this).find('.hole').attr('id'));
+            game.play($(this).find('.' + HOLE_CLASS).attr('id'));
         });
 }
 
 
 function AddHoleHoverEvents() {
-    $('.hole-container').hover(
+    $('.' + HOLE_CONTAINER_CLASS).hover(
         function () {
-            $(this).append('<div class="display-number">' + game.findHoleByID($(this).find('.hole').attr('id')).numberOfMarbles + '</div>');
+            $(this).append('<div class="' + DISPLAY_NUMBER_SET_CLASS + '">' + game.findHoleByID($(this).find('.' + HOLE_CLASS).attr('id')).numberOfMarbles + '</div>');
         },
         function () {
-            $('.display-number').remove();
+            $('.' + DISPLAY_NUMBER_SET_CLASS).remove();
         }
     );
 }
 
 function AddStoreHoverEvents() {
-    $('.store-container').hover(
+    $('.' + STORE_CONTAINER_CLASS).hover(
         function () {
-            $(this).append('<div class="display-number">' + game.findHoleByID($(this).find('.store').attr('id')).numberOfMarbles + '</div>');
+            $(this).append('<div class="' + DISPLAY_NUMBER_SET_CLASS + '">' + game.findHoleByID($(this).find('.' + STORE_CLASS).attr('id')).numberOfMarbles + '</div>');
         },
         function () {
-            $('.display-number').remove();
+            $('.' + DISPLAY_NUMBER_SET_CLASS).remove();
         }
     );
 }

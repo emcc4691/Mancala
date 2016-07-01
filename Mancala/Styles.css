@@ -50,9 +50,11 @@ body #board #board-centre .row .hole-container:first-child {
 body #board #board-centre .row .hole-container .hole {
   border-radius: 25%;
   width: 100%;
+  cursor: pointer;
 }
 body #board #board-centre .row .hole-container .display-number {
   top: 20px;
+  cursor: pointer;
 }
 body #board #board-centre .player-row {
   margin-bottom: 40px;

@@ -13,5 +13,20 @@
 { ID: "holeP6", nextHoleID: "holeP5", oppositeHoleID: "holeO1", isStore: false, isPlayer: true },
 { ID: "storeO", nextHoleID: "holeP6", oppositeHoleID: null, isStore: true, isPlayer: false }];
 
-imageDir = "images/";
-emptyHoleImage = imageDir + 'hole-1-0.png';
+IMAGE_DIR = 'images/';
+HOLE_IMAGE_PREFIX = 'hole-1-';
+STORE_IMAGE_PREFIX = 'store-1-';
+MARBLE_SET_IMAGE_PREFIX = 'marble-set-';
+ACTIVE_PLAYER_IMAGE_PREFIX = 'active-player-';
+ACTIVE_PLAYER_INDICATOR_ID = 'active-player-indicator';
+EMPTY_HOLE_IMAGE = IMAGE_DIR + HOLE_IMAGE_PREFIX + '0.png';
+HOLE_MARBLE_MAX = 14;
+MARBLE_SET_MAX = 14;
+STORE_MARBLE_MAX = 30;
+MARBLE_SET_CLASS = 'marble-set';
+DISPLAY_NUMBER_SET_CLASS = 'display-number';
+HOLE_CLASS = 'hole';
+STORE_CLASS = 'store';
+HOLE_CONTAINER_CLASS = 'hole-container';
+STORE_CONTAINER_CLASS = 'store-container';
+MARBLE_SET_CONTAINER_CLASS = 'marble-set-container';
